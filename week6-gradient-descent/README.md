@@ -1,9 +1,9 @@
-# orientation-week6-cg
+# week6-gradient-descent
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week6-cg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week6-cg)
 
-This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **circuit placement optimization using Conjugate Gradient (CG) methods**.
+This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **circuit placement optimization using gradient descent methods**.
 
 ## 📖 Table of Contents
 
@@ -19,7 +19,7 @@ This project is part of the **National Cheng Kung University (NCKU) - Smart Elec
 
 ## 📝 Project Overview
 
-This project implements **Conjugate Gradient (CG) optimization** for **circuit placement** by minimizing:
+This project implements **gradient descent optimization** for **circuit placement** by minimizing:
 
 \[ \min WL(x) + \lambda D(x) \]
 
@@ -30,7 +30,7 @@ where:
 
 ### **Key Features:**
 1. **Parsing circuit layout data from input files (`test.txt`).**
-2. **Using CG-based optimization for placement refinement.**
+2. **Using gradient descent optimization for placement refinement.**
 3. **Calculating gradients for wirelength and density functions.**
 4. **Writing final placement results to output files (`output.dpx`).**
 
@@ -80,7 +80,7 @@ SRF 80 80 140 140
 │── 📜 .gitignore
 ```
 
-## 🔹 **CG Optimization Flow**
+## 🔹 **Gradient Descent Optimization Flow**
 
 ### **1. Read Input Files**
 - Parses `test.txt` for **circuit components, placement area, and netlist data**.
@@ -90,7 +90,7 @@ SRF 80 80 140 140
 - **Wirelength Calculation**: Uses **Log-Sum-Exponential (LSE) model**.
 - **Density Calculation**: Uses **Electrostatic Force model**.
 
-### **3. Gradient Calculation & CG Update**
+### **3. Gradient Calculation & Update**
 - Computes **gradients for WL and D**.
 - Updates component positions iteratively **until convergence**.
 
@@ -126,4 +126,4 @@ Below are the generated plots from the `matlab` and `gnuplot` output:
 
 - 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
 - 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Summer Training Program - Conjugate Gradient Placement Optimization
+- 📖 Course: Summer Training Program - Gradient Descent Placement Optimization
