@@ -1,4 +1,4 @@
-# orientation-week8-congestion-map
+# week8-congestion-map
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week8-congestion-map)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week8-congestion-map)
