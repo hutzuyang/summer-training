@@ -1,6 +1,6 @@
 # week1-fm
 
-This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group** course **"Physical Design for Nanometer IC"**, focusing on **2-way Partitioning using the Fiduccia-Mattheyses (FM) Algorithm**.
+This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group** "Smart Electronic Design Automation Laboratory"** summer training, focusing on **2-way Partitioning using the Fiduccia-Mattheyses (FM) Algorithm**.
 
 ## 📝 Project Overview
 
