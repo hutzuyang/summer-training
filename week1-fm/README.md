@@ -119,17 +119,3 @@ The correctness of the FM partitioning can be verified using the `FM_checker`.
 
 - **Cut Size**: The number of nets spanning both partitions.
 - **Group Size Ratio**: Ensures that partition sizes satisfy the balance constraint.
-
-## 🤝 Contribution Guide
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the remote branch (`git push origin feature-xyz`).
-5. Submit a Pull Request.
-
-## 📬 Contact Information
-
-- 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
-- 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Physical Design for Nanometer IC, Fall 2024
