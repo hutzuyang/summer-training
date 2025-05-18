@@ -1,11 +1,6 @@
 # week8-congestion-map
 
-This project implements **Congestion Map generation** to evaluate the **routability of a circuit placement**. The process involves:
-1. **Partitioning the placement region into uniform G-cells.**
-2. **Using FLUTE to decompose multi-pin nets into 2-pin nets.**
-3. **Calculating the demand and supply for each routing edge.**
-4. **Identifying congested areas where demand exceeds supply.**
-5. **Generating visual representations of congestion levels.**
+This project implements **Congestion Map generation** to evaluate the **routability of a circuit placement**.
 
 ### **Key Features:**
 - **Parses placement files (`.aux`, `.nodes`, `.nets`, `.pl`, `.scl`, `.route`).**
