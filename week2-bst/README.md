@@ -1,9 +1,5 @@
 # week2-bst
 
-This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group "Smart Electronic Design Automation Laboratory"** summer training, focusing on **Binary Search Tree (BST) with Simulated Annealing (SA)** for **module placement optimization**.
-
-## 📝 Project Overview
-
 This project implements a **Binary Search Tree (BST) for module placement** while utilizing **Simulated Annealing (SA) to optimize placement efficiency**. The primary objective is to achieve **optimized module placement within a fixed outline** by **minimizing Half-Perimeter Wire Length (HPWL)**.
 
 ### **Key Features:**
