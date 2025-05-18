@@ -1,24 +1,5 @@
 # week3-plot
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week3-plot)
-![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week3-plot)
-
-This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **YAL format parsing and MATLAB visualization**.
-
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Input Format](#input-format)
-- [Output Format](#output-format)
-- [Project Structure](#project-structure)
-- [YAL Parsing & Plotting Flow](#yal-parsing--plotting-flow)
-- [Example Execution](#example-execution)
-- [Generated Plots](#generated-plots)
-- [Contribution Guide](#contribution-guide)
-- [Contact Information](#contact-information)
-
-## 📝 Project Overview
-
 This project parses **YAL format circuit placement files**, extracts **module positions and dimensions**, and generates **MATLAB scripts for visualization**.
 
 ### **Key Features:**
@@ -66,16 +47,16 @@ text(100, 160, 'M1');
 
 ```
 📂 orientation-week3-plot/
-│── 📂 src/ *(C++ source files for YAL parsing)*  
+│── 📂 src/  
 │   ├── main.cpp  
 │   ├── yal_parser.cpp  
 │   ├── yal_parser.h  
-│── 📄 ami49.yal # (ignored)   
-│── 📄 ami49_1_10.out # (ignored)  
-│── 📄 yal_parser.m # (ignored)
-│── 🖥️ yal_parser # (ignored)
+│── 📄 ami49.yal   
+│── 📄 ami49_1_10.out   
+│── 📄 yal_parser.m  
+│── 🖥️ yal_parser  
 │── 🔧 Makefile  
-│── 📜 README.md # This file  
+│── 📜 README.md  
 │── 📜 .gitignore  
 ```
 
@@ -101,18 +82,4 @@ make
 Below are the generated plots from the `matlab` output: 
 
 **ami49**  
-![yal](https://github.com/user-attachments/assets/a3edfbdc-ee0f-41cc-b36a-4583cee6b218)  
-
-## 🤝 Contribution Guide
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the remote branch (`git push origin feature-xyz`).
-5. Submit a Pull Request.
-
-## 📬 Contact Information
-
-- 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
-- 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Summer Training Program - YAL Visualization
+![yal](https://github.com/user-attachments/assets/4a1ef2ba-c893-449f-b900-3164878cf7ce)  
