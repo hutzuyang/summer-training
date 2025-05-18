@@ -1,24 +1,5 @@
 # week8-congestion-map
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week8-congestion-map)
-![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week8-congestion-map)
-
-This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **Congestion Map generation for circuit routing evaluation**.
-
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Input Format](#input-format)
-- [Output Format](#output-format)
-- [Project Structure](#project-structure)
-- [Congestion Map Computation Flow](#congestion-map-computation-flow)
-- [Example Execution](#example-execution)
-- [Generated Plots](#generated-plots)
-- [Contribution Guide](#contribution-guide)
-- [Contact Information](#contact-information)
-
-## 📝 Project Overview
-
 This project implements **Congestion Map generation** to evaluate the **routability of a circuit placement**. The process involves:
 1. **Partitioning the placement region into uniform G-cells.**
 2. **Using FLUTE to decompose multi-pin nets into 2-pin nets.**
@@ -72,20 +53,20 @@ SRF 50 60 70 80
 ## 🧰 Project Structure
 
 ```
-📂 orientation-week8-congestion-map/
-│── 📂 flute-3.1/ # (ignored)  
-│── 📂 obj/ # (ignored)    
+📂 week8-congestion-map/
+│── 📂 flute-3.1/  
+│── 📂 obj/     
 │── 📂 src/ 
 │   ├── main.cpp  
 │   ├── parser.cpp  
 │   ├── alg.cpp  
-│── 📄 circuit.aux # (ignored)  
-│── 📄 circuit_ver.dpx # (ignored)  
-│── 📄 circuit_hor.dpx # (ignored)  
-│── 📄 circuit_w_ver.dpx # (ignored)   
-│── 📄 circuit_w_hor.dpx # (ignored)  
+│── 📄 circuit.aux  
+│── 📄 circuit_ver.dpx  
+│── 📄 circuit_hor.dpx  
+│── 📄 circuit_w_ver.dpx  
+│── 📄 circuit_w_hor.dpx  
 │── 🔧 Makefile  
-│── 📜 README.md # This file  
+│── 📜 README.md  
 │── 📜 .gitignore  
 ```
 
@@ -120,25 +101,14 @@ make
 
 Below are the generated plots from the `display.x` output:
 
-**congestion map ver**  
-![ver](https://github.com/user-attachments/assets/fd16f4aa-4abf-4e47-afb4-e83baec39dd5)  
-**congestion map ver**  
-![hor](https://github.com/user-attachments/assets/554f4b3e-9374-4efb-907c-535ed44b00a1)  
-**wire ver**  
-![w_ver](https://github.com/user-attachments/assets/c6b6aeae-2b25-4ad0-bbd3-65066ccf48ff)  
-**wire hor**  
-![w_hor](https://github.com/user-attachments/assets/81d76dc4-3464-4f33-b84c-4a40b5965c67)  
+  - congestion map ver
+  <img src="https://github.com/user-attachments/assets/a41c8f5a-4bdb-49d0-adac-1551f593663e" width="50%" height="50%">  
 
-## 🤝 Contribution Guide
+  - congestion map hor
+  <img src="https://github.com/user-attachments/assets/559662b9-697c-4dd3-acac-8f1e86037e58" width="50%" height="50%">  
 
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the remote branch (`git push origin feature-xyz`).
-5. Submit a Pull Request.
+  - wire ver
+  <img src="https://github.com/user-attachments/assets/3b112b97-4335-4b50-97bc-4221a25f37a3" width="50%" height="50%">  
 
-## 📬 Contact Information
-
-- 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
-- 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Summer Training Program - Congestion Map Analysis
+  - wire hor
+  <img src="https://github.com/user-attachments/assets/a4c6aeec-3714-4fa7-8638-2a28244f76ed" width="50%" height="50%">  
