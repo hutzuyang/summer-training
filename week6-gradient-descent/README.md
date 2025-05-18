@@ -1,24 +1,5 @@
 # week6-gradient-descent
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week6-cg)
-![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week6-cg)
-
-This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **circuit placement optimization using gradient descent methods**.
-
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Input Format](#input-format)
-- [Output Format](#output-format)
-- [Project Structure](#project-structure)
-- [CG Optimization Flow](#cg-optimization-flow)
-- [Example Execution](#example-execution)
-- [Generated Plots](#generated-plots)
-- [Contribution Guide](#contribution-guide)
-- [Contact Information](#contact-information)
-
-## 📝 Project Overview
-
 This project implements **gradient descent optimization** for **circuit placement** by minimizing:
 
 \[ \min WL(x) + \lambda D(x) \]
@@ -66,17 +47,17 @@ SRF 80 80 140 140
 ## 🧰 Project Structure
 
 ```
-📂 orientation-week6-cg/  
+📂 week6-gradient-descent/  
 │── 📂 src/  
 │   ├── main.cpp  
 │   ├── parser.h  
 │   ├── parser.cpp  
 │   ├── alg.ch  
 │   ├── alg.cpp  
-│── 📄 test.txt # (ignored)  
-│── 📄 output.dpx # (ignored)  
+│── 📄 test.txt  
+│── 📄 output.dpx  
 │── 🔧 Makefile  
-│── 📜 README.md # This file
+│── 📜 README.md  
 │── 📜 .gitignore
 ```
 
@@ -109,21 +90,8 @@ make
 
 Below are the generated plots from the `matlab` and `gnuplot` output:
 
-**init**  
-![initial](https://github.com/user-attachments/assets/c4436d92-b041-460a-b9a2-57a334a4cf94)  
-**out**  
-![out](https://github.com/user-attachments/assets/1f945a87-53a1-49f1-b3fe-5e2caf3b69e9)  
+  - init
+  <img src="https://github.com/user-attachments/assets/2a62e3de-2c6b-42fa-9aaa-a3dbde8f64cd" width="50%" height="50%">  
 
-## 🤝 Contribution Guide
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the remote branch (`git push origin feature-xyz`).
-5. Submit a Pull Request.
-
-## 📬 Contact Information
-
-- 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
-- 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Summer Training Program - Gradient Descent Placement Optimization
+  - out
+  <img src="https://github.com/user-attachments/assets/1c68a53a-c719-418f-a94c-e21c7d1b59a9" width="50%" height="50%">  
