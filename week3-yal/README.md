@@ -81,5 +81,5 @@ make
 ## 🖼️ Generated Plots
 Below are the generated plots from the `matlab` output: 
 
-**ami49**  
-![yal](https://github.com/user-attachments/assets/4a1ef2ba-c893-449f-b900-3164878cf7ce)  
+  - ami49
+  <img src="https://github.com/user-attachments/assets/4a1ef2ba-c893-449f-b900-3164878cf7ce" width="50%" height="50%">  
