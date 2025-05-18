@@ -1,23 +1,5 @@
 # week5-openmp
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week5-openmp)
-![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week5-openmp)
-
-This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **parallel computing using OpenMP**.
-
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Input Format](#input-format)
-- [Output Format](#output-format)
-- [Project Structure](#project-structure)
-- [OpenMP Implementation Flow](#openmp-implementation-flow)
-- [Example Execution](#example-execution)
-- [Contribution Guide](#contribution-guide)
-- [Contact Information](#contact-information)
-
-## 📝 Project Overview
-
 This project implements **OpenMP parallel computing** for **matrix operations** on CPU. The primary objective is to perform the following iterative computation on two 1000 × 1000 matrices `A` and `B`:
 
 \[ A_{k+1} = (A_k + B_k) (A_k - B_k) \]
@@ -58,15 +40,15 @@ The program generates two output files after performing the operations for 5 ite
 ## 🧰 Project Structure
 
 ```
-📂 orientation-week5-openmp/
+📂 week5-openmp/
 │── 📂 src/
 │   ├── main.cpp  
-│── 📄 A.txt # (ignored)  
-│── 📄 B.txt # (ignored)  
-│── 📄 A_openmp.txt # (ignored)  
-│── 📄 B_openmp.txt # (ignored)  
+│── 📄 A.txt  
+│── 📄 B.txt  
+│── 📄 A_openmp.txt  
+│── 📄 B_openmp.txt   
 │── 🔧 Makefile  
-│── 📜 README.md # This file
+│── 📜 README.md  
 │── 📜 .gitignore  
 ```
 
@@ -94,17 +76,3 @@ make                # Compile the program
 make run           # Run the execution
 make clean         # Remove temporary files
 ```
-
-## 🤝 Contribution Guide
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the remote branch (`git push origin feature-xyz`).
-5. Submit a Pull Request.
-
-## 📬 Contact Information
-
-- 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
-- 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Summer Training Program - OpenMP Parallel Computing
