@@ -2,7 +2,9 @@
 
 This project implements **gradient descent optimization** for **circuit placement** by minimizing:
 
+$$
 \[ \min WL(x) + \lambda D(x) \]
+$$
 
 where:
 - **WL(x)** represents **wirelength** minimization (using Log-Sum-Exponential model).
