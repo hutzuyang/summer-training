@@ -63,7 +63,8 @@ After execution, the program generates **BST-based placement results**:
 ## 🖼️ Generated Plots
 Below are the generated plots from the `matlab` output: 
 
-**init**  
-![initial](https://github.com/user-attachments/assets/9fc6dba6-4e92-478f-8bbc-7dd48dccb0c2)  
-**sa**  
-![sa2](https://github.com/user-attachments/assets/11e01aec-11b2-4d90-bc43-764f43d55d6a)  
+  - init
+  <img src="https://github.com/user-attachments/assets/6e41d0cc-1fbd-4421-baf1-b1e5b1069cae" width="50%" height="50%">  
+
+  - sa
+  <img src="https://github.com/user-attachments/assets/43390968-2b70-41a8-aaec-94793bca691c" width="50%" height="50%">  
