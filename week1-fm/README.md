@@ -1,21 +1,6 @@
 # week1-fm
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week1-fm)
-![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week1-fm)
-
 This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group** course **"Physical Design for Nanometer IC"**, focusing on **2-way Partitioning using the Fiduccia-Mattheyses (FM) Algorithm**.
-
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Input Format](#input-format)
-- [Output Format](#output-format)
-- [Project Structure](#project-structure)
-- [FM Algorithm Flow](#fm-algorithm-flow)
-- [Example Execution](#example-execution)
-- [Validation](#validation)
-- [Contribution Guide](#contribution-guide)
-- [Contact Information](#contact-information)
 
 ## 📝 Project Overview
 
