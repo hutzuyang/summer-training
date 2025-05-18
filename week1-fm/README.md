@@ -1,9 +1,5 @@
 # week1-fm
 
-This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD Group "Smart Electronic Design Automation Laboratory"** summer training, focusing on **2-way Partitioning using the Fiduccia-Mattheyses (FM) Algorithm**.
-
-## 📝 Project Overview
-
 This project implements **a 2-way partitioning algorithm based on the Fiduccia-Mattheyses (FM) method**, aiming to **minimize the cut size while maintaining partition balance**.
 
 ### **Key Features:**
