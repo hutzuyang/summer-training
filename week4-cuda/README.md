@@ -1,23 +1,5 @@
 # week4-cuda
 
-![GitHub repo size](https://img.shields.io/github/repo-size/ysnanako/orientation-week4-cuda)
-![GitHub last commit](https://img.shields.io/github/last-commit/ysnanako/orientation-week4-cuda)
-
-This project is part of the **National Cheng Kung University (NCKU) - Smart Electronic Design Automation Laboratory (SEDA)** summer training program, focusing on **CUDA parallel computing for matrix operations**.
-
-## 📖 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Input Format](#input-format)
-- [Output Format](#output-format)
-- [Project Structure](#project-structure)
-- [CUDA Implementation Flow](#cuda-implementation-flow)
-- [Example Execution](#example-execution)
-- [Contribution Guide](#contribution-guide)
-- [Contact Information](#contact-information)
-
-## 📝 Project Overview
-
 This project implements **CUDA parallel computing** for **matrix operations** to demonstrate GPU acceleration. The primary objective is to perform the following iterative computation on two 1000 × 1000 matrices `A` and `B`:
 
 \[ A_{k+1} = (A_k + B_k) (A_k - B_k) \]
@@ -57,19 +39,19 @@ The program generates two output files after performing the operations for 5 ite
 
 ## 🧰 Project Structure
 ```
-📂 orientation-week4-cuda/
+📂 week4-cuda/  
 │── 📂 include/  
 │   ├── cuda_kernel.cuh  
 │── 📂 source/  
 │   ├── cuda_kernel.cu  
 │   ├── main.cpp  
-│── 📄 A.txt # (ignored in Git due to large size, automatically generated)  
-│── 📄 B.txt # (ignored in Git due to large size, automatically generated)  
-│── 📄 A_cuda.txt # (ignored in Git due to large size, automatically generated)  
-│── 📄 B_cuda.txt # (ignored in Git due to large size, automatically generated)  
-│── 📄 CUDA_Runtime.txt # (ignored in Git, automatically generated)  
+│── 📄 A.txt  
+│── 📄 B.txt  
+│── 📄 A_cuda.txt  
+│── 📄 B_cuda.txt  
+│── 📄 CUDA_Runtime.txt  
 │── 🔧 Makefile  
-│── 📜 README.md # This file
+│── 📜 README.md  
 │── 📜 .gitignore
 ```
 
@@ -101,17 +83,3 @@ make               # Compile the program
 make run           # Run the execution
 make clean         # Remove temporary files
 ```
-
-## 🤝 Contribution Guide
-
-1. Fork this repository.
-2. Create a new branch (`git checkout -b feature-xyz`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the remote branch (`git push origin feature-xyz`).
-5. Submit a Pull Request.
-
-## 📬 Contact Information
-
-- 📧 Email: [m16131056@gs.ncku.edu.tw](mailto:m16131056@gs.ncku.edu.tw)
-- 🌎 University: [National Cheng Kung University (NCKU)](https://www.ncku.edu.tw)
-- 📖 Course: Summer Training Program - CUDA Parallel Computing
