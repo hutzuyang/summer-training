@@ -46,7 +46,7 @@ text(100, 160, 'M1');
 ## 🧰 Project Structure
 
 ```
-📂 orientation-week3-plot/
+📂 week3-plot/
 │── 📂 src/  
 │   ├── main.cpp  
 │   ├── yal_parser.cpp  
